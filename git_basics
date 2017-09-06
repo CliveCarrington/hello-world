@@ -13,3 +13,6 @@ git commit -m "Commit message"  # commits all files currently staged
 
 git commit -am "commit Message"   # commits all files in the current repository to the next local git version
 git push origin master            # pushes the local copy up to the master on Github
+
+# to pull down a complete copy of an existing project, (no needs to do and cd or Git init)
+git clone https://github.com/CliveCarrington/<repository>
