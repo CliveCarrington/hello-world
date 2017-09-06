@@ -1,0 +1,15 @@
+
+# Create global variables for me
+git config --global user.name "Clive Carrington"
+git config --global user.email clive.carrington@btinternet.com
+
+git init    # create a repository in the current directory
+git add .   # adds all files to the staging in this directory and below
+  # or
+git add <filename>  # to add just one file to the staging area
+
+git remote add origin https://github.com/CliveCarrington/<Repository>     # Connect with github repository
+git commit -m "Commit message"  # commits all files currently staged
+
+git commit -am "commit Message"   # commits all files in the current repository to the next local git version
+git push origin master            # pushes the local copy up to the master on Github
